@@ -12,7 +12,7 @@
 
 //constant
 const MAX_SUPPLY: felt252 = 10000000;
-fn main() {
+pub fn main() {
     //immutable
     let y = 10;
     println!("The value of y is: {}", y);

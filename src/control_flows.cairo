@@ -1,5 +1,5 @@
 // control-flows
-fn main() {
+pub fn main() {
     let number = 2;
 
     if number == 12 {

@@ -39,7 +39,7 @@
 // The Unit Type ():
 //  - A unit type is a type which has only one value like this :- ()
 
-fn main() {
+pub fn main() {
     let x: u256 = 3;
     let y: u32 = x.try_into().unwrap();
     println!("x is {}, y is {}", x, y);

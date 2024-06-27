@@ -21,7 +21,7 @@ fn block_scope() {
     println!("The value of y is: {}", y); //6
 }
 
-fn main() {
+pub fn main() {
     example_fun();
     print_value(10, "h");
     block_scope();
