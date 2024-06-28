@@ -1,4 +1,4 @@
-// control-flows
+// control-flows in cairo
 pub fn main() {
     let number = 2;
 
