@@ -24,7 +24,7 @@ pub fn main() {
         println!("The number is : {}", number);
     }
 
-    // break and continue
+    // break and continue statements
     let mut i: usize = 0;
     loop {
         if i > 8 {
