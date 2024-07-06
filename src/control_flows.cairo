@@ -48,8 +48,8 @@ pub fn main() {
     };
     println!("The result is {}", result);
 
-    // while loop
-    let mut number = 3;
+    // while loop in cairo
+    let mut number = 2;
     while number != 0 {
         println!("{number}!");
         number -= 1;
