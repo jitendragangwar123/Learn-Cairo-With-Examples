@@ -1,7 +1,7 @@
 // Variable Types:-
   // 1. immutable -> by default
   // 2. mutable -> using mut keyword
-// shadowing -> reassigning a new value to a variable
+// Shadowing -> reassigning a new value to a variable
 // scope -> variables are scoped to the block they are declared in
 // type inference -> cairo can infer the type of a variable based on its value
 // explicit type annotation -> you can explicitly specify the type of a variable
