@@ -1,4 +1,4 @@
-// - Cairo code uses snake case as the conventional style for function and variable names.
+//Cairo code uses snake case as the conventional style for function and variable names.
 
 fn example_fun() {
     println!("function example.");
@@ -21,7 +21,7 @@ fn block_scope() {
     println!("The value of y is: {}", y); //6
 }
 
-
+// function for set the sale price 
 fn sale_price(price: u32) -> u32 {
     if is_even(price) {
         price - 10
@@ -30,6 +30,7 @@ fn sale_price(price: u32) -> u32 {
     }
 }
 
+//to check the num is even or odd
 fn is_even(num: u32) -> bool {
     num % 2 == 0
 }
