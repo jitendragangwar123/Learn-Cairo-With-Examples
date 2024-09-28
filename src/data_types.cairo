@@ -74,4 +74,14 @@ pub fn main() {
     //tuple
     let (x, y): (felt252, felt252) = (2, 3);
     println!("x is {x}, y is {y}");
+
+    let tup = (500, 6, true);
+    let (_, y, _) = tup;
+    if y == 6 {
+        println!("y is 6!");
+    }
+
+    // Array
+    let arr1: [u64; 5] = [1, 2, 3, 4, 5];
+    println!("Fixed size Array: {} ",arr1);
 }
