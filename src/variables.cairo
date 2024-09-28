@@ -41,5 +41,10 @@ pub fn main() {
     println!("The value of b is {} of type u64", b);
     let b: felt252 = b.into(); // converts b to a felt, type annotation is required.
     println!("The value of b is {} of type felt252", b);
+
+    let cat = ('Furry McFurson', 3); 
+    let (name, age) = cat; // destructuring
+    println!("name is {}", name);
+    println!("age is {}", age);
 }
 
