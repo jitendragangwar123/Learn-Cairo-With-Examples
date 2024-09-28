@@ -73,5 +73,5 @@ pub fn main() {
 
     //tuple
     let (x, y): (felt252, felt252) = (2, 3);
-    println!("x is {}, y is {}", x, y);
+    println!("x is {x}, y is {y}");
 }
